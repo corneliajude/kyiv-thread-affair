@@ -7,7 +7,11 @@ export default function Home() {
         <title>Thead Affair</title>
       </Head>
 
-      <header className="header">Hello</header>
+      <header className="header">
+        Hello
+        <img src="/images/logo.jpg" alt=""></img>
+        <i class="fa-solid fa-phone"></i>
+      </header>
 
       <main className="content"></main>
 
