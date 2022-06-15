@@ -10,7 +10,7 @@ export default function Home() {
       <header className="header">
         Hello
         <img src="/images/logo.jpg" alt=""></img>
-        <i class="fa-solid fa-phone"></i>
+        <i className="fa-solid fa-phone"></i>
       </header>
 
       <main className="content"></main>
