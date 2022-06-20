@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
@@ -7,11 +8,7 @@ export default function Home() {
         <title>Thead Affair</title>
       </Head>
 
-      <header className="header mt-5 text-warning">
-        Hello
-        <img src="/images/logo.jpg" alt=""></img>
-        <i className="fa-solid fa-phone"></i>
-      </header>
+      <Header></Header>
 
       <main className="content">
         <div className="badge">20off</div>
