@@ -8,8 +8,16 @@
     grid-row: 1 / span 1;
     justify-self: center;
 
+    @include media-breakpoint-up(lg) {
+      grid-row: 2 / span 1;
+    }
+
     img {
       width: 100px;
+
+      @include media-breakpoint-up(lg) {
+        width: 180px;
+      }
     }
   }
 
@@ -42,6 +50,18 @@
           gap: 8px;
         }
       }
+    }
+  }
+
+  .header-support {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    justify-self: start;
+    align-self: center;
+
+    ul {
+      display: flex;
+      gap: 4px;
     }
   }
 }
