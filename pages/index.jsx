@@ -10,23 +10,7 @@ export default function Home() {
 
       <Header></Header>
 
-      <main className="content">
-        <div className="badge">20off</div>
-        <div className="badge badge-secondary">new entry</div>
-        <div className="badge badge-oversized">%</div>
-
-        <div>
-          <a href="/" className="button">
-            Test button
-          </a>
-          <button className="button">Test button</button>
-
-          <a href="/" className="button button-large">
-            Test button
-          </a>
-          <button className="button button-large">Test button</button>
-        </div>
-      </main>
+      <main className="content"></main>
 
       <footer className="footer"></footer>
     </div>

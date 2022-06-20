@@ -1,7 +1,13 @@
 export default function HeaderSecondary() {
   return (
     <section className="header-secondary">
-      <div className="header-support">
+      <div className="header-logo">
+        <a href="/" title="Thread Affair">
+          <img src="/images/logo.jpg" alt="Thread Affair - Logo"></img>
+        </a>
+      </div>
+
+      <div className="header-support d-none d-lg-block">
         <ul>
           <li>
             <a href="tel:1-877-666-1840" title="Call us">
@@ -18,7 +24,7 @@ export default function HeaderSecondary() {
         </ul>
       </div>
 
-      <div className="header-search">
+      <div className="header-search d-lg-none">
         <ul>
           <li>
             <a href="/" title="Menu">
