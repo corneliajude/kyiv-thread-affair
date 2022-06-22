@@ -1,0 +1,26 @@
+@import './home-payment';
+
+.content {
+  & > section {
+    & > header {
+      text-align: center;
+      margin-bottom: 24px;
+
+      h1 {
+        text-transform: uppercase;
+        color: $brand-primary;
+
+        @include media-breakpoint-up('lg') {
+          font-weight: 500;
+          color: $gray-secondary;
+          text-transform: unset;
+          font-size: 41px;
+
+          span {
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}
