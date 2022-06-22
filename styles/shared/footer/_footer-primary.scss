@@ -9,6 +9,13 @@
       'nav'
       'contact'
       'support';
+
+    @include media-breakpoint-up('lg') {
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas:
+        'nav nav'
+        'support contact';
+    }
   }
 
   .footer-nav {
@@ -17,17 +24,35 @@
     row-gap: 43px;
     grid-area: nav;
 
+    @include media-breakpoint-up('lg') {
+      flex-wrap: nowrap;
+      column-gap: 110px;
+    }
+
     ul {
       flex-basis: 50%;
+
+      @include media-breakpoint-up('lg') {
+        flex-basis: auto;
+      }
     }
   }
 
   .footer-contact {
     grid-area: contact;
+
+    @include media-breakpoint-up('lg') {
+      align-self: end;
+    }
   }
 
   .footer-support {
     grid-area: support;
     justify-self: center;
+
+    @include media-breakpoint-up('lg') {
+      justify-self: start;
+      align-self: end;
+    }
   }
 }
