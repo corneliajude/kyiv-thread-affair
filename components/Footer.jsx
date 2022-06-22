@@ -175,7 +175,27 @@ export default function Footer() {
             </p>
           </section>
 
-          <section className="footer-support"></section>
+          <section className="footer-support">
+            <ul>
+              <li>
+                <a href="https://x.ro" title="Suppoert">
+                  Suppoert
+                </a>
+              </li>
+
+              <li>
+                <a href="https://x.ro" title="Chat">
+                  Chat
+                </a>
+              </li>
+
+              <li>
+                <a href="https://x.ro" title="Email">
+                  Email
+                </a>
+              </li>
+            </ul>
+          </section>
         </div>
       </section>
 

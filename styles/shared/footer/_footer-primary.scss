@@ -1,3 +1,33 @@
 .footer-primary {
   background-color: $brand-secondary;
+
+  // .footer-primary-inner
+  &-inner {
+    display: grid;
+    row-gap: 43px;
+    grid-template-areas:
+      'nav'
+      'contact'
+      'support';
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 43px;
+    grid-area: nav;
+
+    ul {
+      flex-basis: 50%;
+    }
+  }
+
+  .footer-contact {
+    grid-area: contact;
+  }
+
+  .footer-support {
+    grid-area: support;
+    justify-self: center;
+  }
 }
