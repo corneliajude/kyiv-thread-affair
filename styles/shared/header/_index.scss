@@ -1,1 +1,8 @@
 @import 'header-secondary';
+// granular sass
+@import 'nav-primary';
+
+// one-off style
+.header-primary {
+  margin-top: 24px;
+}
