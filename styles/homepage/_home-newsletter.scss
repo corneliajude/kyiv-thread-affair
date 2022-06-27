@@ -30,4 +30,18 @@
     border-bottom: 1px solid $white;
     color: $white;
   }
+
+  [type='submit'] {
+    align-self: center;
+    background-color: transparent;
+    border: 0;
+    font-size: 19px;
+    color: $white;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-right: 132px;
+    height: 60px;
+    background: transparent url('/images/icons/mail-send.png') right center
+      no-repeat;
+  }
 }
