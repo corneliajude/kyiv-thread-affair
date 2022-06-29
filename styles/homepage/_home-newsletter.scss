@@ -9,6 +9,12 @@
     display: flex;
     flex-direction: column;
     row-gap: 32px;
+
+    @include media-breakpoint-up('lg') {
+      flex-direction: row;
+      gap: 36px;
+      justify-content: center;
+    }
   }
 
   label[for='home-newsletter'] {
@@ -29,6 +35,11 @@
     font-weight: 100;
     border-bottom: 1px solid $white;
     color: $white;
+
+    @include media-breakpoint-up('lg') {
+      width: 32.60188%; // 416 / 1276 x 100 //
+      align-self: center;
+    }
   }
 
   [type='submit'] {
